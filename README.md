@@ -5,6 +5,8 @@ It is a virtual assistant that can do anything for you.
 
 A voice-based virtual assistant chatbot that can respond to queries, open websites, perform searches, tell time and date, and much more. The chatbot interacts with users via voice, listens to their commands, and replies accordingly.
 
+![Output screen of chatbot](Output Screen/robot chatbot.png)
+
 ### **Features:**
 - **Speech Recognition**: The bot listens for user input and converts speech to text.
 - **Speech Synthesis**: The bot speaks responses using the Web Speech API.
