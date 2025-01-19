@@ -37,17 +37,14 @@ cd chatbot-project
 ### **2. Requirements**
 This project uses web-based speech synthesis and recognition. Make sure your browser supports the Web Speech API, which is available in most modern browsers like Google Chrome and Firefox.
 
+### **3. Dependencies**
+This project uses the Web Speech API, which is built into modern browsers. There are no external dependencies to install. However, ensure you're using a supported browser like Chrome or Firefox.
+
 ## **How It Works**
 
 1. **Speech Recognition**: The chatbot listens for your voice input using the SpeechRecognition API. When you speak, it converts your speech into text and processes it for commands.
 2. **Speech Synthesis**: After processing the command, the bot will use the SpeechSynthesisUtterance API to speak back to the user.
 3. **Command Processing**: The bot can respond to various commands such as opening websites (Google, YouTube, etc.), telling the time and date, and searching for specific queries on the internet.
-
-### **Key Features:**
-- **Voice Commands**: Type or speak commands such as "open Google", "what is the time", "who is Einstein", etc.
-- **Time and Date**: The bot can tell you the current time and date.
-- **Opening Websites**: You can ask the bot to open any website (e.g., "open YouTube").
-- **Search Queries**: You can ask questions, and the bot will search for the answers on Google or Wikipedia.
 
 ## **Technologies Used**
 - **HTML**: For structuring the chatbot interface.
@@ -55,28 +52,11 @@ This project uses web-based speech synthesis and recognition. Make sure your bro
 - **JavaScript**: For the core logic including speech synthesis and recognition.
 - **Web Speech API**: This API is used for speech recognition and speech synthesis.
 
-## **Installation**
-
-### **1. Clone the Repository**
-Clone this repository to your local machine:
-
-```bash
-git clone https://github.com/yourusername/chatbot-project.git
-cd chatbot-project
-```
-
-### **2. Open the Project in a Browser**
-Since this is a frontend project, you don't need any backend setup. You can open the `index.html` file in a browser directly.
-
-### **3. Dependencies**
-This project uses the Web Speech API, which is built into modern browsers. There are no external dependencies to install. However, ensure you're using a supported browser like Chrome or Firefox.
-
 ## **Usage**
 
 1. Open the `index.html` file in your browser.
 2. Press the "Talk" button to start speaking or interacting with the chatbot.
 3. The chatbot will respond based on the command or query you provide.
-4. To stop the chatbot from continuously listening, simply remain silent for a few moments. It will automatically stop listening and wait for the next interaction.
 
 ### **Commands**
 - **"Hello"**: The chatbot will greet you.
