@@ -37,3 +37,62 @@ cd chatbot-project
 
 
 
+2. Requirements
+This project uses web-based speech synthesis and recognition. Make sure your browser supports the Web Speech API, which is available in most modern browsers like Google Chrome and Firefox.
+
+How It Works
+Speech Recognition: The chatbot listens for your voice input using the SpeechRecognition API. When you speak, it converts your speech into text and processes it for commands.
+Speech Synthesis: After processing the command, the bot will use the SpeechSynthesisUtterance API to speak back to the user.
+Command Processing: The bot can respond to various commands such as opening websites (Google, YouTube, etc.), telling the time and date, and searching for specific queries on the internet.
+Key Features:
+Voice Commands: Type or speak commands such as "open Google", "what is the time", "who is Einstein", etc.
+Time and Date: The bot can tell you the current time and date.
+Opening Websites: You can ask the bot to open any website (e.g., "open YouTube").
+Search Queries: You can ask questions, and the bot will search for the answers on Google or Wikipedia.
+Technologies Used
+HTML: For structuring the chatbot interface.
+CSS: For styling the chatbot interface.
+JavaScript: For the core logic including speech synthesis and recognition.
+Web Speech API: This API is used for speech recognition and speech synthesis.
+Installation
+1. Clone the Repository
+Clone this repository to your local machine:
+
+bash
+Copy
+Edit
+git clone https://github.com/yourusername/chatbot-project.git
+cd chatbot-project
+2. Open the Project in a Browser
+Since this is a frontend project, you don't need any backend setup. You can open the index.html file in a browser directly.
+
+3. Dependencies
+This project uses the Web Speech API, which is built into modern browsers. There are no external dependencies to install. However, ensure you're using a supported browser like Chrome or Firefox.
+
+Usage
+Open the index.html file in your browser.
+Press the "Talk" button to start speaking or interacting with the chatbot.
+The chatbot will respond based on the command or query you provide.
+To stop the chatbot from continuously listening, simply remain silent for a few moments. It will automatically stop listening and wait for the next interaction.
+Commands
+"Hello": The chatbot will greet you.
+"How are you": The chatbot will respond with a friendly greeting.
+"What is your name": The chatbot will say "My name is Chota."
+"Open Google": The chatbot will open Google in a new tab.
+"What is the time": The chatbot will tell you the current time.
+"What is the date": The chatbot will provide today's date.
+"Wikipedia [query]": The chatbot will search for the query on Wikipedia.
+General search: Ask the chatbot any question, and it will search for it on Google.
+Contributing
+If you'd like to contribute to this project, feel free to fork the repository and submit a pull request. You can also open an issue for suggestions or bugs.
+
+Steps to Contribute:
+Fork the repository.
+Clone your forked repository.
+Make your changes.
+Commit and push the changes.
+Submit a pull request for review.
+
+License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
