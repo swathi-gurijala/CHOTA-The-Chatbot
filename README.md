@@ -21,8 +21,8 @@ A voice-based virtual assistant chatbot that can respond to queries, open websit
 - [Installation](#installation)
 - [Usage](#usage)
 - [Contributing](#contributing)
-  - [Steps to Contribute](#steps-to-contribute)
-  - [License](#license)
+- [Steps to Contribute](#steps-to-contribute)
+- [License](#license)
 
 ## **Project Setup**
 
