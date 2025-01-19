@@ -1,10 +1,4 @@
-The issue with the table of contents not working for the last three entries is likely due to the lack of anchor links for those sections. For the table of contents to work, each section must have an appropriate ID that matches the anchor in the table of contents.
-
-To fix this, make sure that each section in the README has the correct `id` attribute for the table of contents links to point to. Here's the corrected version of your README with proper IDs for the last three sections:
-
-```markdown
 # **CHOTA-The-Chatbot**
-
 It is a virtual assistant that can do anything for you.
 
 ## **Virtual Chatbot Project - Chota**
@@ -108,9 +102,4 @@ If you'd like to contribute to this project, feel free to fork the repository an
 ## **License**
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-```
 
-### **Key Changes:**
-- Added anchor links in the Table of Contents that correspond to the section titles. For example, the link `[Contributing](#contributing)` matches the `## Contributing` section in the README.
-  
-Now, the table of contents will work as expected, and clicking the links will navigate to the appropriate sections in the document.
